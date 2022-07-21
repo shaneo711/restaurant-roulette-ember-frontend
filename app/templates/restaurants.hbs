@@ -1,0 +1,7 @@
+{{page-title "Restaurants"}}
+
+<h1>Restaurants:</h1>
+{{#each @model as |restaurant|}}
+  <h2>{{restaurant.id}}. {{restaurant.name}}</h2>
+  <p>{{restaurant.address}}</p>
+{{/each}}
